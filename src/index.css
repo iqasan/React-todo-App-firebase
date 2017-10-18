@@ -1,0 +1,42 @@
+body{
+    background-color: navy;
+
+}
+.head{
+    color: antiquewhite;
+    text-align: center;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  text-align: center;
+  
+}
+.todoTask{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    color: antiquewhite;
+}
+.todoTask>li{
+    margin:10px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.todoTask>li>.col-xs-6{
+    display: flex;
+    align-items: center;
+    
+}
+.todoTask>li>.col-xs-6>*{
+    margin:5px;
+}
+button1{
+ background-color: lightslategray;  
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
